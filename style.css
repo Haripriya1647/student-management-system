@@ -1,0 +1,22 @@
+{ margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; }
+.container { max-width: 1100px; margin: 30px auto; padding: 0 20px; }
+header { display: flex; justify-content: space-between;
+align-items: center; margin-bottom: 20px; }
+header h1 { color: #1a237e; font-size: 1.8rem; }
+.btn { padding: 8px 16px; border-radius: 6px;
+border: none; cursor: pointer; text-decoration: none; }
+.btn-primary { background: #1a237e; color: white; }
+.btn-primary:hover { background: #283593; }
+.btn-danger { background: #c62828; color: white; padding: 5px 10px; }
+.btn-edit { background: #f57f17; color: white; padding: 5px 10px; }
+.search-bar { margin-bottom: 16px; }
+.search-bar input { width: 100%; padding: 10px 14px;
+border: 1px solid #c5cae9; border-radius: 8px; font-size: 14px; }
+table { width: 100%; border-collapse: collapse; background: white;
+border-radius: 10px; overflow: hidden;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+thead { background: #1a237e; color: white; }
+th, td { padding: 12px 14px; text-align: left; font-size: 14px; }
+tbody tr:nth-child(even) { background: #f8f9ff; }
+tbody tr:hover { background: #e8eaf6; }
